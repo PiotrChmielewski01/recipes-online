@@ -1,0 +1,3 @@
+export const CONTAINER_ID = {
+    PRISMA_CLIENT: "PRISMA_CLIENT",
+};
