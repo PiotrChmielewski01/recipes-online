@@ -21,3 +21,7 @@ model User {
   createdAt   DateTime    @default(now())
   updatedAt   DateTime    @default(now())
 }
+
+model token {
+  guid        String    @id @default(uuid())
+}
